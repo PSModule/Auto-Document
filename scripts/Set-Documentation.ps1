@@ -1,11 +1,10 @@
-#REQUIRES -Modules powershell-yaml, MarkdownPS
+﻿#REQUIRES -Modules powershell-yaml, MarkdownPS
 
 [CmdletBinding()]
 param(
     [Parameter()]
     [string] $Path
 )
-
 
 function Get-ActionFile {
     <#
